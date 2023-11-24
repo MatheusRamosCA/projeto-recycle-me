@@ -50,8 +50,18 @@ div#img{
     top: 50%;
 
     transform: translate(-50%, -50%);
-
 }
-h1#verde{
-    color:rgb(6, 75, 6);
+form {
+    font-family: Arial;
+}
+form > div.campo{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+form input{
+    padding: 20px;
+    width: 300px;
+    border: none;
+    background-color: green;
 }
