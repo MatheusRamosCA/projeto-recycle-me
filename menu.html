@@ -9,6 +9,11 @@
 </head>
 <body>
     <main>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Contato</a>
+        </nav>
         <section id="login">
             <div id="formulario">
                 <h1>RECYCLE -</h1>
@@ -22,10 +27,12 @@
                         <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="current-password" required minlength="4" maxlength="8">
                         <label for="isenha"></label>
                     </div>
-                    <input type="submit" value="Log in">
-                    <a href="recuperarsenha.html" class="botao" target="_blank" rel="prev">.</a>
-                    <a href="novocolaborador.html" class="botao" target="_blank" rel="prev">.</a>
+                    <input class="botao" type="submit" value="Login">
                 </form>
+                <div>
+                    <a class="links" href="recuperarsenha.html" class="botao" target="_parent" rel="prev">Novo colaborador</a>
+                    <a style="width: 50%;" class="links" class="links2" href="novocolaborador.html" class="botao" target="_parent" rel="prev">Esqueci minha senha</a>
+                </div>
             </div>
         </section>
         <div id="img">
